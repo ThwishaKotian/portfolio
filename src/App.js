@@ -10,7 +10,8 @@ import sassIcon from './assets/sass.png';
 import nodeIcon from './assets/node.png';
 import retro from './assets/retro.png';
 import github from './assets/github-logo.png';
-import mail from './assets/mail.png'
+import mail from './assets/mail.png';
+import todo from './assets/todo.png'
 
 function App() {
   useEffect(() => {
@@ -161,6 +162,23 @@ function App() {
               <a href="https://thwishakotian.github.io/Retro-Sketch/" target="_blank"
               ><div class="project__live-2">Live app</div></a>
               <a href="https://github.com/ThwishaKotian/Retro-Sketch" target="_blank"
+              ><div class="project__live-2">learn more</div></a>
+            </div>
+          </div>
+          <div className='project project-left'>
+            <a href="https://thwishakotian.github.io/todo/" target="_blank">
+              <div class="project__image-container retro">
+                <div class="project__image-image">
+                  <img src={todo} alt="" />
+                </div>
+              </div>
+            </a>
+            <div class="project__info">
+              <h3 class="project__title">// TO-DO<br />Productivity App</h3>
+              <p class="project__description">Keep track of tasks with custom project folders and notes.</p>
+              <a href="https://thwishakotian.github.io/todo/" target="_blank"
+              ><div class="project__live-2">Live app</div></a>
+              <a href="https://github.com/ThwishaKotian/todo" target="_blank"
               ><div class="project__live-2">learn more</div></a>
             </div>
           </div>
